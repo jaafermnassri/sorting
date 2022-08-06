@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+    i,j:INTEGER;
+    array_tab : ARRAY_OF number;
+    temp=0 : INTEGER;
+BEGIN
+    FOR i FROM 0 TO tab.length STEP 1  DO
+        Temp = t[i]
+j=i-1
+WHILE (temp<T[j] && j>=0 )
+T[j+1]=t[j]
+j=j-1
+END_WHILE
+T[j+1]=temp
+    END_FOR
+END
